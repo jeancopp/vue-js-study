@@ -30,10 +30,8 @@
             let service = new ListagemFotoService(this.$http);
             service.listar( json => this.fotos = json );
         },
-        methods(){
-            return {
-                gerarLink : f => `/cadastro/foto/${f._id}`
-            } 
+        methods :  {
+            gerarLink : f => `/cadastro/foto/${f._id}`
         }
     }
 </script>

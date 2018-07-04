@@ -1,8 +1,9 @@
 export default class FotoModel{
 
     constructor(model){
-        this.nome = model.nome;
+        this.titulo = model.titulo;
         this.url = model.url;
+        this._id = model._id;
     }
 
 }
